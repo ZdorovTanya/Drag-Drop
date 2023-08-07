@@ -11,7 +11,7 @@ export default function Card(props) {
     }
 
     const dragOver = e =>{
-        e.stopPropaganation();
+        e.stopPropagation();
     }
   return (
     <div

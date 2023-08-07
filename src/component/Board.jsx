@@ -15,7 +15,12 @@ export default function Board(props) {
   };
 
   return (
-    <div id={props.id} onDrop={drop} onDragOver={dragOver}>
+    <div
+      id={props.id}
+      className={props.className}
+      onDrop={drop}
+      onDragOver={dragOver}
+    >
       {props.children}
     </div>
   );
